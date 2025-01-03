@@ -50,6 +50,15 @@ h4 {
         font-style: italic;
       }
 
+      h5 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+	font-size: 2vw;
+	margin-bottom: 0.2em;
+	margin-top: 1em;
+      }
+
 
       p {
         font-family: "Roboto Condensed", sans-serif;
@@ -103,6 +112,14 @@ td:empty {
 display:none;
 }
 
+.leaderboard {
+width: 25%;
+}
+
+.ldrname {
+margin: 0.2em;
+}
+
       @media only screen and (min-width: 1025px) {
       .mobile {
         display: none;
@@ -154,7 +171,21 @@ display:none;
 
 <h1 style="margin-bottom:0px; margin-top:100px;">whomst has been successful</h1>
 <h4 style="margin:0px;">(aka the leaderboard)</h4>
-<h2>nobody...yet</h2>
+<table class="leaderboard">
+	<tr>
+		<td class="leaderboard"><h5>name</h5></td>
+		<td class="leaderboard"><h5>solved</h5></td>
+	</tr>
+	<tr>
+		<td class="leaderboard"><h3 class="ldrname">christina</h3></td>
+		<td class="leaderboard"><h3 class="ldrname">1</h3></td>
+	</tr>
+	<tr>
+		<td class="leaderboard"><h3 class="ldrname">james</h3></td>
+		<td class="leaderboard"><h3 class="ldrname">1</h3></td>
+	</tr>
+
+</table>
 
 <h4><a class="link" href="https://jochard2025.github.io/">back</a></h4>
   </body>
